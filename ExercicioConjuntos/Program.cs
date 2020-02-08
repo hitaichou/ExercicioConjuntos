@@ -12,7 +12,6 @@ namespace ExercicioConjuntos
             int v_qt_aluno_curso_c = 0;
             int v_tot_qt_aluno = 0;
 
-
             //declaração dos Cursos como conjuntos
             HashSet<int> A = new HashSet<int>();
             HashSet<int> B = new HashSet<int>();
@@ -64,8 +63,7 @@ namespace ExercicioConjuntos
             }
 
             v_tot_qt_aluno = v_qt_aluno_curso_a + v_qt_aluno_curso_b + v_qt_aluno_curso_c;
-            Console.WriteLine("Total de Alunos: " + v_tot_qt_aluno);            
-
+            Console.WriteLine("Total de Alunos: " + v_tot_qt_aluno);    
         }
     }
 }
